@@ -7,5 +7,5 @@ if t == '攝氏':
 if t == '華氏':
 	f = input ('請輸入數值：')
 	f = float(f)
-	f_a = f - 32 * 5 / 9
+	f_a = (f - 32) * 5 / 9
 	print ('攝氏為：',f_a)
